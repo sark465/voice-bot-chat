@@ -5,8 +5,8 @@ const { exec } = require('child_process');
 
 const app = express();
 
-// Use Render-provided PORT or fallback to 4173
-const PORT = process.env.PORT || 4173;
+// Use Render-provided PORT or fallback to 5000
+const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(bodyParser.json());
