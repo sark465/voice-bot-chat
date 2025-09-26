@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "vercel-build": "echo build complete"
+    "start": "node server.js",
+    "vercel-build": "echo Build complete"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1"
   }
 }
